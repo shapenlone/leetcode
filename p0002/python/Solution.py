@@ -33,7 +33,7 @@ def buildNodeList(l:list):
     result =None
     length = len(l)
     if length == 1:
-        return ListNOde(l[0],None)
+        return ListNode(l[0],None)
     for i in range(length-1,-1,-1):
         node = ListNode(l[i],result)
         result = node
