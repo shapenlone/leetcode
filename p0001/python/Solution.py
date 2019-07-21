@@ -11,4 +11,4 @@ class Solution(object):
         
 if __name__ == "__main__":
     s = Solution()
-    print(s.twoSum([1,2,3,5,6,7],9))
+    print(s.twoSum([1,2,3,5,6,7],8))
