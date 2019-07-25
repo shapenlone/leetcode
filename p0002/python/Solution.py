@@ -22,6 +22,8 @@ class Solution(object):
             result.append(r)
             l1 = l1.next
             l2 = l2.next
+        if l3 > 0:
+            result.append(1)
         return result
 
 class ListNode(object):
@@ -44,7 +46,7 @@ def buildNodeList(l:list):
 if __name__ == "__main__":
      # 中文
      s = Solution()
-     h = s.addTwoNumbers(buildNodeList([2,4,3]),buildNodeList([5,6,4]))
+     h = s.addTwoNumbers(buildNodeList([5]),buildNodeList([5]))
      print(h)
     
 
